@@ -1,0 +1,23 @@
+{
+  "name": "blog-leaflet-mapping",
+  "version": "0.0.0",
+  "authors": [
+    "Andrew Varnerin <andrew@varnerin.info>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "~0.7.3",
+    "tile.stamen": "http://maps.stamen.com/js/tile.stamen.js?v1.3.0",
+    "leaflet.editable": "leaflet0.7",
+    "turf": "~2.0.2",
+    "leaflet-omnivore": "BaconSoap/leaflet-omnivore#update-togeojson"
+  }
+}

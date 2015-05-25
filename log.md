@@ -1,0 +1,22 @@
+- npm install -g bower
+- install leaflet, http://maps.stamen.com/js/tile.stamen.js?v1.3.0
+- mkdir src
+- download stamen.js (curl  > src/stamen.js)
+- make basic index.html page with all references, a div for map, and #map style
+- commit
+- wrap in IIFE
+- DOMContentLoaded
+- addMarker()
+- bind a popup with http://thecatapi.com
+- add singleclick event
+- add marker on click
+- part 1 done
+
+- bower install --save leaflet.editable#leaflet0.7
+- add basic editing
+- refactor editing to use events for starting/stopping/text change
+- bower install --save turf
+- color turfs
+- color markers contained in turfs on turf end
+- add more event listeners for dragging
+- assign marker when created

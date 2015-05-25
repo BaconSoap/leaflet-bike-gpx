@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Leaflet Map</title>
+</head>
+<body>
+  <div id="map"></div>
+  <button id="toggleDrawing">Draw</button>
+  <button id="toggleClustering">Cluster</button>
+  <p>
+    Click to add markers in normal mode. Click draw to start drawing. Click last point to stop drawing (or click 'Stop drawing').
+  </p>
+  <script src="bower_components/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css">
+  <style type="text/css">
+  #map {
+    width: 1280px;
+    height: 720px;
+  }
+  </style>
+  <script src="bower_components/tile.stamen/index.js"></script>
+  <script src="bower_components/leaflet.editable/src/Leaflet.Editable.js"></script>
+  <script src="bower_components/turf/turf.js"></script>
+  <script src="bower_components/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+  <script src="node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="build/app.js"></script>
+</body>
+</html>
